@@ -12,6 +12,9 @@ export default function InvoiceStatus({ status }: { status: string }) {
         },
       )}
     >
+      {' '}
+      // I think this is a problem. TODO: look at the spans and these
+      conditional blocks
       {status === 'pending' ? (
         <>
           Pending
