@@ -12,7 +12,7 @@ export default async function Page({
 }: {
   searchParams?: {
     query?: string;
-    currentPage?: number;
+    page?: number;
   };
 }) {
   const query = searchParams?.query || '';
